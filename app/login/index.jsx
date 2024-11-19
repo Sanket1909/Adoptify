@@ -3,7 +3,10 @@ import React from 'react'
 import Colors from './../../constants/Colors'
 export default function LoginScreen() {
   return (
-    <View>
+      <View style={{
+          backgroundColor: Colors.WHITE,
+          height:'100%'
+    }}>
           <Image source={require('./../../assets/images/login.png')}
               style={{
                   width: "100%",
